@@ -2,6 +2,7 @@
 
 This repository provides information and dataset that allow the reproduction of the results found in the manuscript “Velocity of magnetic holes in the solar wind from cluster multipoint measurements” under consideration in Geophysical Research Letter (GRL) journal. 
 
+[![Publication: Under Consideration](https://img.shields.io/badge/Publication-Under%20Review-yellow?style=flat&logo=openaccess)](https://github.com/SavvasRaptis/Jets-VDFS)
 
 ## Data availability
 Data for reproducing the analysis of the manuscript and the figures are accessible freely online. Cluster data are available through the Cluster repository. 
@@ -14,14 +15,7 @@ Below we provide instructions for the reproduction of every figure
 
 ## Figure 1
 Download data from the Cluster archive using the date bellow. 
-The products are
-*a)	flux__C1_CP_CIS_HIA_HS_1D_PEF
-*b)	'B_vec_xyz_gse__C1_CP_FGM_5VPS' 
-*c)	Norm of b) 
-*d)	'Electron_Density__C1_CP_WHI_ELECTRON_DENSITY'
-*e)	'temperature__C1_CP_CIS_HIA_ONBOARD_MOMENTS'
-*f)	'velocity_gse__C1_CP_CIS_HIA_ONBOARD_MOMENTS'
-*g)	sc_r_xyz_gse__C1_CP_AUX_POSGSE_1M
+The products are a)	flux__C1_CP_CIS_HIA_HS_1D_PEF, b)	'B_vec_xyz_gse__C1_CP_FGM_5VPS' , c)	Norm of b), d)	'Electron_Density__C1_CP_WHI_ELECTRON_DENSITY', e)	'temperature__C1_CP_CIS_HIA_ONBOARD_MOMENTS', f)	'velocity_gse__C1_CP_CIS_HIA_ONBOARD_MOMENTS', g)	sc_r_xyz_gse__C1_CP_AUX_POSGSE_1M
 
 Start time = [2005 03 26 06 25 27] 
 End time = [2005 03 26 06 25 36]
@@ -35,10 +29,15 @@ c) Can be generated using running the script figure_2_plt, after having loaded t
 
 ## Figure 3
 a)- e) Example of linear MH from in the time interval [2005	3 31 5 35 46.698] to [2005 3 31 5 36 46.698], event number 46 in the results table. 
+
 a)	show norm of 'B_vec_xyz_gse__C?_CP_FGM_5VPS'  where ? indicated S/C 1-4
+
 b)	time shifted norm of 'B_vec_xyz_gse__C?_CP_FGM_5VPS'  where the time shift can be found in the Results.mat file in the TShift struct. 
+
 c)	'B_vec_xyz_gse__C4_CP_FGM_5VPS 
+
 d)	Position  'sc_r_xyz_gse__C?_CP_AUX_POSGSE_1M' in X-Y plane 
+
 In addition to the B0 vector and n_T vector, found in the results.xlsx file, 
 e)	Same as d) but plotted in the X-Z plane 
 
@@ -46,8 +45,6 @@ f)-j) Example of rotational MH from the time interval [2005 03 09 21 23 38.634] 
 
 ## Figure 4 
 Can be recreated using the fig_4_plt.m script, after having loaded the Results.mat file
-
-
 
 
 ### Cite as 
@@ -77,4 +74,11 @@ At the time of the latest submission of the article, the following software vers
 
 ## Acknowledgments
 
-We thank the MMS team for providing data and support. We acknowledge the use of NASA/GSFC's Space Physics Data Facility's OMNIWeb service, and OMNI data. We acknowledge the use of [irfu-matlab package](https://github.com/irfu). We also thank A. Lalti and E. Odelstad, for their useful comments.
+We thank the ESA Cluster team for providing data and support.  We acknowledge the use of [irfu-matlab package](https://github.com/irfu). 
+
+
+
+
+
+
+
