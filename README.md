@@ -2,7 +2,7 @@
 
 This repository provides information and dataset that allow the reproduction of the results found in the manuscript “Velocity of magnetic holes in the solar wind from cluster multipoint measurements” under consideration in Geophysical Research Letter (GRL) journal. 
 
-[![Publication: Under Consideration](https://img.shields.io/badge/Publication-Under%20Review-yellow?style=flat&logo=openaccess)](https://github.com/SavvasRaptis/Jets-VDFS)
+[![Publication: Under Consideration](https://img.shields.io/badge/Publication-Under%20Review-yellow?style=flat&logo=openaccess)](https://github.com/HTrollvik/Velocity_MHs)
 
 ## Data availability
 Data for reproducing the analysis of the manuscript and the figures are accessible freely online. Cluster data are available through the Cluster repository. 
@@ -38,7 +38,7 @@ c)	'B_vec_xyz_gse__C4_CP_FGM_5VPS
 
 d)	Position  'sc_r_xyz_gse__C?_CP_AUX_POSGSE_1M' in X-Y plane 
 
-In addition to the B0 vector and n_T vector, found in the results.xlsx file, 
+In addition to the B0 vector and n_T vector, found in the results.csv file, 
 e)	Same as d) but plotted in the X-Z plane 
 
 f)-j) Example of rotational MH from the time interval [2005 03 09 21 23 38.634] to [2005 03 09 21 23 38.634] same format as for a)-e). 
@@ -52,11 +52,6 @@ Can be recreated using the fig_4_plt.m script, after having loaded the Results.m
 
 ### Corresponding Author
 [![Henriette Trollvik: 0000-0001-8384-8290](https://img.shields.io/badge/Henriette%20Trollvik-0000--0001--8384--8290-green?style=flat&logo=orcid)](https://orcid.org/0000-0001-8384-8290)
-
-## Repository Content
-* [data](data): Contains a .mat file with the MMS measurements. Furthermore, we provide a README file with the information about the data provided. We however, strongly recommend if to visit the official MMS and OMNIweb repositories and acknowledge their use rather than using the pre made data products of this folder. If someone is interested to reproduce the results, we do provide the data in this folder for direct use.
-
-* [figures](figures): Contains a step-by-step guide on how to fully reproduce the figures of the work along with which function of [irfu-matlab](https://github.com/irfu/irfu-matlab) was used in each case. Figures will be uploaded after the publication of the manuscript. 
 
 ## Extra information
 
