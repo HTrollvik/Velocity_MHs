@@ -60,12 +60,7 @@ For fully reproducing the figures the irfu-matlab library can be used, available
 ```matlab
 irf
 ```
-At the time of the latest submission of the article, the following software versions were used:
 
-* irfu-matlab version:  v1.16.1 (devel branch)
-* inkscape version:  v1.1.1
-* MATLAB version: R2022a
-* OS: Windows 11 Pro, build: 22000.739
 
 ## Acknowledgments
 
