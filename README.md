@@ -4,6 +4,9 @@ This repository provides information and dataset that allow the reproduction of 
 
 [![Publication: Under Consideration](https://img.shields.io/badge/Publication-Under%20Review-yellow?style=flat&logo=openaccess)](https://github.com/HTrollvik/Velocity_MHs)
 
+### Corresponding Author
+[![Henriette Trollvik: 0000-0001-8384-8290](https://img.shields.io/badge/Henriette%20Trollvik-0000--0001--8384--8290-green?style=flat&logo=orcid)](https://orcid.org/0000-0001-8384-8290)
+
 ## Data availability
 Data for reproducing the analysis of the manuscript and the figures are accessible freely online. Cluster data are available through the Cluster repository. 
 
@@ -50,8 +53,7 @@ Can be recreated using the fig_4_plt.m script, after having loaded the Results.m
 ### Cite as 
 *TBD*
 
-### Corresponding Author
-[![Henriette Trollvik: 0000-0001-8384-8290](https://img.shields.io/badge/Henriette%20Trollvik-0000--0001--8384--8290-green?style=flat&logo=orcid)](https://orcid.org/0000-0001-8384-8290)
+
 
 ## Extra information
 
