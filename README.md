@@ -3,16 +3,16 @@
 This repository provides information and dataset that allow the reproduction of the results found in the manuscript “Velocity of magnetic holes in the solar wind from cluster multipoint measurements” under consideration in Geophysical Research Letter (GRL) journal. 
 
 
-Data availability
+## Data availability
 Data for reproducing the analysis of the manuscript and the figures are accessible freely online. Cluster data are available through the Cluster repository. 
 
-General instructions
+## General instructions
 In the irfu-package there are examples of all the plots that are included in the manuscript with documentation and extensive descriptions. Cluster examples are located here: https://github.com/irfu/irfu-matlab/tree/master/plots  
 In all the figures, the special notation was done by editing vector graphic files exported from MATLAB with Inkscape.
 Inkscape is an open source vector graphic software, available on https://inkscape.org/.
 Below we provide instructions for the reproduction of every figure
 
-Figure 1
+## Figure 1
 Download data from the Cluster archive using the date bellow. 
 The products are
 a)	flux__C1_CP_CIS_HIA_HS_1D_PEF
@@ -28,14 +28,12 @@ End time = [2005 03 26 06 25 36]
 
 See examples in irfu-matlab for plotting routines 
 
-Figure 2 
-
+## Figure 2 
 Figure a) and b) are made in power point for illustrative purposes
 
 c) Can be generated using running the script figure_2_plt, after having loaded the Results.mat file. 
 
-Figure 3
-
+## Figure 3
 a)- e) Example of linear MH from in the time interval [2005	3 31 5 35 46.698] to [2005 3 31 5 36 46.698], event number 46 in the results table. 
 a)	show norm of 'B_vec_xyz_gse__C?_CP_FGM_5VPS'  where ? indicated S/C 1-4
 b)	time shifted norm of 'B_vec_xyz_gse__C?_CP_FGM_5VPS'  where the time shift can be found in the Results.mat file in the TShift struct. 
@@ -46,5 +44,5 @@ e)	Same as d) but plotted in the X-Z plane
 
 f)-j) Example of rotational MH from the time interval [2005 03 09 21 23 38.634] to [2005 03 09 21 23 38.634] same format as for a)-e). 
 
-Figure 4 
+## Figure 4 
 Can be recreated using the fig_4_plt.m script, after having loaded the Results.mat file 
