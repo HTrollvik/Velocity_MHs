@@ -45,4 +45,36 @@ e)	Same as d) but plotted in the X-Z plane
 f)-j) Example of rotational MH from the time interval [2005 03 09 21 23 38.634] to [2005 03 09 21 23 38.634] same format as for a)-e). 
 
 ## Figure 4 
-Can be recreated using the fig_4_plt.m script, after having loaded the Results.mat file 
+Can be recreated using the fig_4_plt.m script, after having loaded the Results.mat file
+
+
+
+
+### Cite as 
+*TBD*
+
+### Corresponding Author
+[![Henriette Trollvik: 0000-0001-8384-8290](https://img.shields.io/badge/Henriette%20Trollvik-0000--0001--8384--8290-green?style=flat&logo=orcid)](https://orcid.org/0000-0001-8384-8290)
+
+## Repository Content
+* [data](data): Contains a .mat file with the MMS measurements. Furthermore, we provide a README file with the information about the data provided. We however, strongly recommend if to visit the official MMS and OMNIweb repositories and acknowledge their use rather than using the pre made data products of this folder. If someone is interested to reproduce the results, we do provide the data in this folder for direct use.
+
+* [figures](figures): Contains a step-by-step guide on how to fully reproduce the figures of the work along with which function of [irfu-matlab](https://github.com/irfu/irfu-matlab) was used in each case. Figures will be uploaded after the publication of the manuscript. 
+
+## Extra information
+
+For fully reproducing the figures the irfu-matlab library can be used, available at [irfu-matlab](https://github.com/irfu/irfu-matlab). After adding the library to MATLAB's path one needs to run:
+
+```matlab
+irf
+```
+At the time of the latest submission of the article, the following software versions were used:
+
+* irfu-matlab version:  v1.16.1 (devel branch)
+* inkscape version:  v1.1.1
+* MATLAB version: R2022a
+* OS: Windows 11 Pro, build: 22000.739
+
+## Acknowledgments
+
+We thank the MMS team for providing data and support. We acknowledge the use of NASA/GSFC's Space Physics Data Facility's OMNIWeb service, and OMNI data. We acknowledge the use of [irfu-matlab package](https://github.com/irfu). We also thank A. Lalti and E. Odelstad, for their useful comments.
