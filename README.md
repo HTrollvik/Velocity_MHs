@@ -15,13 +15,13 @@ Below we provide instructions for the reproduction of every figure
 ## Figure 1
 Download data from the Cluster archive using the date bellow. 
 The products are
-a)	flux__C1_CP_CIS_HIA_HS_1D_PEF
-b)	'B_vec_xyz_gse__C1_CP_FGM_5VPS' 
-c)	Norm of b) 
-d)	'Electron_Density__C1_CP_WHI_ELECTRON_DENSITY'
-e)	'temperature__C1_CP_CIS_HIA_ONBOARD_MOMENTS'
-f)	'velocity_gse__C1_CP_CIS_HIA_ONBOARD_MOMENTS'
-g)	sc_r_xyz_gse__C1_CP_AUX_POSGSE_1M
+*a)	flux__C1_CP_CIS_HIA_HS_1D_PEF
+*b)	'B_vec_xyz_gse__C1_CP_FGM_5VPS' 
+*c)	Norm of b) 
+*d)	'Electron_Density__C1_CP_WHI_ELECTRON_DENSITY'
+*e)	'temperature__C1_CP_CIS_HIA_ONBOARD_MOMENTS'
+*f)	'velocity_gse__C1_CP_CIS_HIA_ONBOARD_MOMENTS'
+*g)	sc_r_xyz_gse__C1_CP_AUX_POSGSE_1M
 
 Start time = [2005 03 26 06 25 27] 
 End time = [2005 03 26 06 25 36]
