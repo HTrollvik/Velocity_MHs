@@ -1,8 +1,6 @@
 # Velocity_MHs
 
-This repository provides information and dataset that allow the reproduction of the results found in the manuscript “Velocity of magnetic holes in the solar wind from cluster multipoint measurements” under consideration in Geophysical Research Letter (GRL) journal. 
-
-[![Publication: Under Consideration](https://img.shields.io/badge/Publication-Under%20Review-yellow?style=flat&logo=openaccess)](https://github.com/HTrollvik/Velocity_MHs)
+This repository provides information and dataset that allow the reproduction of the results found in the manuscript “Velocity of magnetic holes in the solar wind from cluster multipoint measurements” 
 
 ### Corresponding Author
 [![Henriette Trollvik: 0000-0001-8384-8290](https://img.shields.io/badge/Henriette%20Trollvik-0000--0001--8384--8290-green?style=flat&logo=orcid)](https://orcid.org/0000-0001-8384-8290)
